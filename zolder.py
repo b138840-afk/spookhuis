@@ -1,10 +1,10 @@
-   
-def zolder() :
-    print(" je staat op zolder")
-    print("je ziet maxim")
-    print(" ga je NAAR hem of ga je TERUG")
+import states
+
+def begin() :
+    print("Je staat op de zolder van het huis")
+    print("Ga je naar het RAAM of blijf je ga je ONDERZOEK doen op de zolder")
     antwoord = input("> ")
-    if antwoord == "NAAR" :
-        "NAAR"() 
-    elif antwoord == "TERUG" :
-        "GANG"()
+    if antwoord == "RAAM" :
+        states.locatie = "RAAM"
+    elif antwoord == "ONDERZOEK" :
+        states.locatie = "ONDERZOEK"
