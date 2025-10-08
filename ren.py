@@ -1,7 +1,7 @@
 import states
 
 def begin() :
-    print("Je hebt besloten o te rennen")
+    print("Je hebt besloten om te rennen")
     print("Je rent door het vuur en je hebt niks dat is mooi")
     print("Maar nu sta je voor een schuur met een kelder")
     print("Ga je de KELDER in of ga je de schuur in BRAND steken")
